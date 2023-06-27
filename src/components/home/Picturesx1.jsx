@@ -48,9 +48,9 @@ const Picturesx1 = () => {
                   justifyContent:'space-between'}}>
                     
     <Image source = {img} style={{width:'100%', height:230, marginTop:5, resizeMode:'cover'}}/>
-    <Image source={img1} style={{width:'100%', height:250, marginTop:5}}/>
-    <Image source={img1} style={{width:'100%', height:250, marginTop:5}}/>
-    <Image source={img1} style={{width:'100%', height:250, marginTop:5}}/>
+    <Image source={img} style={{width:'100%', height:250, marginTop:5}}/>
+    <Image source={img} style={{width:'100%', height:250, marginTop:5}}/>
+    <Image source={img} style={{width:'100%', height:250, marginTop:5}}/>
 
     </View>
 
