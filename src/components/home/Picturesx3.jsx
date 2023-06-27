@@ -5,27 +5,27 @@ import img1 from '../../../assets/Imgs-profile/img1.jpg'
 
 const Picturesx3 = () => {
 
-    const [size, setSize] = useState(0);
+    // const [size, setSize] = useState(0);
 
 
-    const getSize = async() => {
+    // const getSize = async() => {
       
-      try {
+    //   try {
   
-        const res = await fetch('http://192.168.1.2:3001');
-        const data = await res.json();
-        setSize(parseInt(data))
+    //     const res = await fetch('http://192.168.1.2:3001');
+    //     const data = await res.json();
+    //     setSize(parseInt(data))
   
-      } catch (error) {
+    //   } catch (error) {
   
-        console.error(error);
+    //     console.error(error);
   
-      }
-    }
+    //   }
+    // }
   
-    useEffect(() => {
-      getSize()
-    }, [getSize()])
+    // useEffect(() => {
+    //   getSize()
+    // }, [getSize()])
     
 
     return (
