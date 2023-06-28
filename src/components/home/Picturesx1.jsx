@@ -50,13 +50,13 @@ const Picturesx1 = () => {
         flexDirection: 'column'
       }}>
         <View style={{height: 350, marginTop:1}}>
-          <Image source={img1} style={{ width: '100%', height: '100%', resizeMode: 'contain' }} />
+          <Image source={img1} style={{ width: '100%', height: '100%', resizeMode: 'stretch' }} />
         </View>
         <View style={{height: 350 , marginTop:1}}>
-          <Image source={img2} style={{ width: '100%', height: '100%', resizeMode: 'contain' }} />
+          <Image source={img2} style={{ width: '100%', height: '100%', resizeMode: 'stretch' }} />
         </View>
         <View style={{height: 350, marginTop:1}}>
-          <Image source={img3} style={{ width: '100%', height: '100%', resizeMode: 'contain' }} />
+          <Image source={img3} style={{ width: '100%', height: '100%', resizeMode: 'stretch' }} />
         </View>
 
       </View>
