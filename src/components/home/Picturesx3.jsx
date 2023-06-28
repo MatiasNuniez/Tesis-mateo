@@ -38,17 +38,18 @@ const Picturesx3 = () => {
         <View style={{width:'100%',
                       height:'auto',
                       backgroundColor:'white',
+                      flexWrap:'wrap',
                       flexDirection:'row'}}>
-        <View style={{width:'32%', height:320, marginRight:2}}>
+        <View style={{width:'32%', height:150, marginRight:2}}>
             <Image source={img1} style={{width:'100%', height:'100%', resizeMode:'contain'}}/>
         </View>
-        <View style={{width:'32%', height:320, marginRight:2}}>
+        <View style={{width:'32%', height:150, marginRight:2}}>
             <Image source={img1} style={{width:'100%', height:'100%', resizeMode:'contain'}}/>
         </View>
-        <View style={{width:'32%', height:320, marginRight:2}}>
+        <View style={{width:'32%', height:150, marginRight:2}}>
             <Image source={img1} style={{width:'100%', height:'100%', resizeMode:'contain'}}/>
         </View>
-        <View style={{width:'32%', height:320, marginRight:2}}>
+        <View style={{width:'32%', height:150, marginRight:2}}>
             <Image source={img1} style={{width:'100%', height:'100%', resizeMode:'contain'}}/>
         </View>
 
