@@ -26,7 +26,7 @@ const Header = () => {
             </View>
 
             <View>
-                <TouchableOpacity >
+                <TouchableOpacity style={styles.touch}>
                     <Icon
                         name='bars'
                         size={30}
@@ -46,7 +46,11 @@ const styles = StyleSheet.create({
         justifyContent: 'space-between',
         flexDirection: 'row',
         alignItems: 'center',
-        // marginHorizontal: 20
+    },
+
+    touch:{
+        width:'32px',
+        marginTop:0
     },
 
     textLogo: {
