@@ -20,12 +20,6 @@ const Header = () => {
 
         <View style={styles.container}>
 
-            <View style={styles.textcon}>
-                <Text style={styles.textLogo} >
-                    Enfogram
-                </Text>
-            </View>
-
             <View style={styles.touch}>
                 <TouchableOpacity>
                     <Icon
@@ -34,6 +28,12 @@ const Header = () => {
                         color="grey"
                     />
                 </TouchableOpacity>
+            </View>
+
+            <View style={styles.textcon}>
+                <Text style={styles.textLogo} >
+                    Enfogram
+                </Text>
             </View>
 
 
@@ -51,19 +51,13 @@ const styles = StyleSheet.create({
         alignItems: 'center',
         width: '100%'
     },
-
-    touch: {
-        width: '50%',
+    touch:{
         justifyContent:'flex-end'
-    },
-
-    textcon:{
-        width:'50%'
     },
 
     textLogo: {
 
-        fontFamily: 'Billabong', fontSize: 40, height: 100
+        fontFamily: 'Billabong', fontSize: 40, height: 100,justifyContent:'flex-start'
 
     }
 })
