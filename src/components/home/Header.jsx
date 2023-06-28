@@ -23,14 +23,14 @@ const Header = () => {
                     Enfogram
                 </Text>
 
-                <TouchableOpacity>
+                <TouchableOpacity style={styles.touch}>
                     <Icon
                         name='bars'
                         size={25}
                         color="grey"
                     />
                 </TouchableOpacity>
-                
+
         </View>
 
     )
@@ -43,6 +43,11 @@ const styles = StyleSheet.create({
         justifyContent: 'space-between',
         flexDirection: 'row',
         alignItems: 'center',
+    },
+
+    touch:{
+        marginRight:3,
+        width:10
     },
 
     textLogo: {
