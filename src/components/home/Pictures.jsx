@@ -11,7 +11,7 @@ function Pictures() {
 
   return (
 
-    <Tab.Navigator screenOptions={({route})=>({
+    <Tab.Navigator style={{marginTop:0}}  screenOptions={({route})=>({
       tabBarShowLabel:false,
     })}>
 
