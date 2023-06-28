@@ -42,10 +42,10 @@ const Picturesx3 = () => {
                       flexDirection:'row',
                       paddingVertical:5,
                       justifyContent:'space-between'}}>
-        <Image source={img1} style={{width:'32%', height:230, marginTop:5, resizeMode:'cover'}}/>
-        <Image source={img1} style={{width:'32%', height:230, marginTop:5, resizeMode:'cover'}}/>
-        <Image source={img1} style={{width:'32%', height:230, marginTop:5, resizeMode:'cover'}}/>
-        <Image source={img1} style={{width:'32%', height:230, marginTop:5, resizeMode:'cover'}}/>
+        <Image source={img1} style={{width:'32%', height:230, marginTop:5, resizeMode:'contain'}}/>
+        <Image source={img1} style={{width:'32%', height:230, marginTop:5, resizeMode:'contain'}}/>
+        <Image source={img1} style={{width:'32%', height:230, marginTop:5, resizeMode:'contain'}}/>
+        <Image source={img1} style={{width:'32%', height:230, marginTop:5, resizeMode:'contain'}}/>
 
 
         </View>

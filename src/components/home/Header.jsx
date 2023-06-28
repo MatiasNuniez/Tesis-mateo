@@ -31,7 +31,6 @@ const Header = () => {
                         name='bars'
                         size={27}
                         color="grey"
-                        style={{marginTop:'0px'}}
                     />
                 </TouchableOpacity>
             </View>
