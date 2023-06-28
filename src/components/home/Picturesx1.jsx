@@ -46,8 +46,7 @@ const Picturesx1 = () => {
         height: 'auto',
         backgroundColor: 'white',
         flexWrap: 'wrap',
-        flexDirection: 'column',
-        justifyContent: 'space-between'
+        flexDirection: 'column'
       }}>
         <View style={{ width: '100%', height: 320, marginTop:2}}>
           <Image source={img} style={{ width: '100%', height: '100%', resizeMode: 'contain' }} />
