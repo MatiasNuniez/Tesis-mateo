@@ -33,7 +33,6 @@ const styles = StyleSheet.create({
     flexDirection:'column',
     width:'100%',
     marginBottom:0,
-    height:'50vh'
   },
 
   touchContainer:{
@@ -64,11 +63,13 @@ const styles = StyleSheet.create({
   bold:{
     fontWeight:'bold',
     fontSize:15,
-    justifyContent:'flex-start'
+    justifyContent:'flex-start',
+    marginLeft:10
   },
   nobold:{
     fontSize:13,
-    justifyContent:'flex-start'
+    justifyContent:'flex-start',
+    marginLeft:10
   },
   touchbold:{
     fontWeight:'bold'

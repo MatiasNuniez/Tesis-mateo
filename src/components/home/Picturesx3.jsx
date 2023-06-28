@@ -43,13 +43,13 @@ const Picturesx3 = () => {
                       flexWrap:'wrap',
                       flexDirection:'row'}}>
         <View style={{width:'32%', height:150, marginRight:2, marginTop:0}}>
-            <Image source={img1} style={{width:'100%', height:'100%', resizeMode:'contain'}}/>
+            <Image source={img1} style={{width:'100%', height:'100%', resizeMode:'cover'}}/>
         </View>
         <View style={{width:'32%', height:150, marginRight:2, marginTop:0}}>
-            <Image source={img2} style={{width:'100%', height:'100%', resizeMode:'contain'}}/>
+            <Image source={img2} style={{width:'100%', height:'100%', resizeMode:'cover'}}/>
         </View>
         <View style={{width:'32%', height:150, marginRight:2, marginTop:0}}>
-            <Image source={img3} style={{width:'100%', height:'100%', resizeMode:'contain'}}/>
+            <Image source={img3} style={{width:'100%', height:'100%', resizeMode:'cover'}}/>
         </View>
 
 
