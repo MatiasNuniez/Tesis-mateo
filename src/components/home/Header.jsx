@@ -21,7 +21,7 @@ const Header = () => {
         <View style={styles.container}>
             <View>
                 <Text style={styles.textLogo} >
-                    Instagram
+                    Enfogram
                 </Text>
             </View>
 
@@ -47,8 +47,7 @@ const styles = StyleSheet.create({
         justifyContent: 'space-between',
         flexDirection: 'row',
         alignItems: 'center',
-        marginHorizontal: 20,
-        paddingVertical:10
+        marginHorizontal: 20
     },
 
     textLogo: {
