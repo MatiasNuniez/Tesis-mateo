@@ -43,16 +43,17 @@ const styles = StyleSheet.create({
         justifyContent: 'space-between',
         flexDirection: 'row',
         alignItems: 'center',
+        width:'100%',
+        flex:1
     },
 
     touch:{
-        marginRight:3,
-        width:10
+        width:'50%'
     },
 
     textLogo: {
 
-        fontFamily: 'Billabong', fontSize: 40, height: 100
+        fontFamily: 'Billabong', fontSize: 40, height: 100, width:'50%'
 
     }
 })
