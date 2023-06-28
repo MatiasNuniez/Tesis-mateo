@@ -12,24 +12,30 @@ const Header = () => {
     })
 
     useEffect(() => {
-      fontsLeaded
+        fontsLeaded
     }, [])
-    
+
 
     return (
 
         <View style={styles.container}>
+
+            <View style={styles.textcon}>
                 <Text style={styles.textLogo} >
                     Enfogram
                 </Text>
+            </View>
 
-                <TouchableOpacity style={styles.touch}>
+            <View style={styles.touch}>
+                <TouchableOpacity>
                     <Icon
                         name='bars'
                         size={25}
                         color="grey"
                     />
                 </TouchableOpacity>
+            </View>
+
 
         </View>
 
@@ -43,17 +49,21 @@ const styles = StyleSheet.create({
         justifyContent: 'space-between',
         flexDirection: 'row',
         alignItems: 'center',
-        width:'100%',
-        flex:1
+        width: '100%',
+        flex: 1
     },
 
-    touch:{
+    touch: {
+        width: '50%'
+    },
+
+    textcon:{
         width:'50%'
     },
 
     textLogo: {
 
-        fontFamily: 'Billabong', fontSize: 40, height: 100, width:'50%'
+        fontFamily: 'Billabong', fontSize: 40, height: 100, width: '50%'
 
     }
 })
