@@ -44,13 +44,13 @@ const Picturesx1 = () => {
                   backgroundColor:'white',
                   flexWrap:'wrap',
                   flexDirection:'column',
-                  paddingVertical:5,
+                  paddingVertical:2,
                   justifyContent:'space-between'}}>
                     
-    <Image source = {img} style={{width:'100%', height:300, marginTop:5, resizeMode:'contain'}}/>
-    <Image source={img} style={{width:'100%', height:300, marginTop:5, resizeMode:'contain'}}/>
-    <Image source={img} style={{width:'100%', height:300 , marginTop:5, resizeMode:'contain'}}/>
-    <Image source={img} style={{width:'100%', height:300, marginTop:5, resizeMode:'contain'}}/>
+    <Image source = {img} style={{width:'100%', height:300, marginTop:2, resizeMode:'contain'}}/>
+    <Image source={img} style={{width:'100%', height:300, marginTop:2, resizeMode:'contain'}}/>
+    <Image source={img} style={{width:'100%', height:300 , marginTop:2, resizeMode:'contain'}}/>
+    <Image source={img} style={{width:'100%', height:300, marginTop:2, resizeMode:'contain'}}/>
 
     </View>
 

@@ -40,12 +40,12 @@ const Picturesx3 = () => {
                       backgroundColor:'white',
                       flexWrap:'wrap',
                       flexDirection:'row',
-                      paddingVertical:5,
+                      paddingVertical:2,
                       justifyContent:'space-between'}}>
-        <Image source={img1} style={{width:'32%', height:230, marginTop:5, resizeMode:'contain'}}/>
-        <Image source={img1} style={{width:'32%', height:230, marginTop:5, resizeMode:'contain'}}/>
-        <Image source={img1} style={{width:'32%', height:230, marginTop:5, resizeMode:'contain'}}/>
-        <Image source={img1} style={{width:'32%', height:230, marginTop:5, resizeMode:'contain'}}/>
+        <Image source={img1} style={{width:'100%', height:230, marginTop:2, resizeMode:'contain'}}/>
+        <Image source={img1} style={{width:'100%', height:230, marginTop:2, resizeMode:'contain'}}/>
+        <Image source={img1} style={{width:'100%', height:230, marginTop:2, resizeMode:'contain'}}/>
+        <Image source={img1} style={{width:'100%', height:230, marginTop:2, resizeMode:'contain'}}/>
 
 
         </View>
