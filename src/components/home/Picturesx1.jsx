@@ -47,16 +47,16 @@ const Picturesx1 = () => {
         flexWrap: 'wrap',
         flexDirection: 'column'
       }}>
-        <View style={{height: 250, marginTop:1}}>
+        <View style={{height: 450, marginTop:1}}>
           <Image source={img} style={{ width: '100%', height: '100%', resizeMode: 'cover' }} />
         </View>
-        <View style={{height: 250 , marginTop:1}}>
+        <View style={{height: 450 , marginTop:1}}>
           <Image source={img} style={{ width: '100%', height: '100%', resizeMode: 'cover' }} />
         </View>
-        <View style={{height: 250, marginTop:1}}>
+        <View style={{height: 450, marginTop:1}}>
           <Image source={img} style={{ width: '100%', height: '100%', resizeMode: 'cover' }} />
         </View>
-        <View style={{height: 250 , marginTop:1}}>
+        <View style={{height: 450 , marginTop:1}}>
           <Image source={img} style={{ width: '100%', height: '100%', resizeMode: 'cover' }} />
         </View>
 
