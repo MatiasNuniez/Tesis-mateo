@@ -41,7 +41,8 @@ const Picturesx3 = () => {
                       height:'auto',
                       backgroundColor:'white',
                       flexWrap:'wrap',
-                      flexDirection:'row'}}>
+                      flexDirection:'row',
+                      justifyContent:'space-between'}}>
         <View style={{width:'32%', height:150, marginTop:0}}>
             <Image source={img1} style={{width:'100%', height:'100%', resizeMode:'cover'}}/>
         </View>

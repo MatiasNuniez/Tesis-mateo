@@ -15,7 +15,7 @@ function QrDescShare() {
         reflejando tus metas y mostrando tu visión única del mundo</Text>
         <View style={styles.touchContainer}>
         <View style={styles.touchStyle}>
-          <TouchableOpacity>
+          <TouchableOpacity style={{marginTop:0}}>
           <Text style={styles.touchbold}>Compartir Perfil</Text>
           </TouchableOpacity>
         </View>
