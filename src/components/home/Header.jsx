@@ -49,8 +49,7 @@ const styles = StyleSheet.create({
         justifyContent: 'space-between',
         flexDirection: 'row',
         alignItems: 'center',
-        width: '100%',
-        flex: 1
+        width: '100%'
     },
 
     touch: {
