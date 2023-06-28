@@ -48,16 +48,16 @@ const Picturesx1 = () => {
         flexWrap: 'wrap',
         flexDirection: 'column'
       }}>
-        <View style={{ width: '100%', height: 320, marginTop:2}}>
+        <View style={{ width: '100vh', height: 320, marginTop:1}}>
           <Image source={img} style={{ width: '100%', height: '100%', resizeMode: 'contain' }} />
         </View>
-        <View style={{ width: '100%', height: 320 , marginTop:2}}>
+        <View style={{ width: '100vh', height: 320 , marginTop:1}}>
           <Image source={img} style={{ width: '100%', height: '100%', resizeMode: 'contain' }} />
         </View>
-        <View style={{ width: '100%', height: 320, marginTop:2}}>
+        <View style={{ width: '100vh', height: 320, marginTop:1}}>
           <Image source={img} style={{ width: '100%', height: '100%', resizeMode: 'contain' }} />
         </View>
-        <View style={{ width: '100%', height: 320 , marginTop:2}}>
+        <View style={{ width: '100vh', height: 320 , marginTop:1}}>
           <Image source={img} style={{ width: '100%', height: '100%', resizeMode: 'contain' }} />
         </View>
 
