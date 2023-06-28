@@ -31,7 +31,7 @@ const styles = StyleSheet.create({
   containerText:{
     flex:1,
     flexDirection:'column',
-    width:'40%',
+    width:'100%',
     marginBottom:0
   },
 
