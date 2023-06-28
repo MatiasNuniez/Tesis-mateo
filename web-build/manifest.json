@@ -1,0 +1,9 @@
+{
+  "background_color": "#ffffff",
+  "display": "standalone",
+  "lang": "en",
+  "name": "mateo-tesis",
+  "short_name": "mateo-tesis",
+  "start_url": "/?utm_source=web_app_manifest",
+  "orientation": "portrait"
+}
