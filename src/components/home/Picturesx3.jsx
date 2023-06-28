@@ -1,6 +1,8 @@
 import { View, Text, StyleSheet, Image, FlatList, ScrollView } from 'react-native'
 import React, {useState, useEffect} from 'react'
-import img1 from '../../../assets/Imgs-profile/img1.jpg'
+import img1 from '../../../assets/Imgs-profile/img1.png'
+import img2 from '../../../assets/Imgs-profile/img2.png'
+import img3 from '../../../assets/Imgs-profile/img3.png'
 
 
 const Picturesx3 = () => {
@@ -40,17 +42,14 @@ const Picturesx3 = () => {
                       backgroundColor:'white',
                       flexWrap:'wrap',
                       flexDirection:'row'}}>
-        <View style={{width:'32%', height:150, marginRight:2}}>
+        <View style={{width:'32%', height:150, marginRight:2, marginTop:0}}>
             <Image source={img1} style={{width:'100%', height:'100%', resizeMode:'contain'}}/>
         </View>
-        <View style={{width:'32%', height:150, marginRight:2}}>
-            <Image source={img1} style={{width:'100%', height:'100%', resizeMode:'contain'}}/>
+        <View style={{width:'32%', height:150, marginRight:2, marginTop:0}}>
+            <Image source={img2} style={{width:'100%', height:'100%', resizeMode:'contain'}}/>
         </View>
-        <View style={{width:'32%', height:150, marginRight:2}}>
-            <Image source={img1} style={{width:'100%', height:'100%', resizeMode:'contain'}}/>
-        </View>
-        <View style={{width:'32%', height:150, marginRight:2}}>
-            <Image source={img1} style={{width:'100%', height:'100%', resizeMode:'contain'}}/>
+        <View style={{width:'32%', height:150, marginRight:2, marginTop:0}}>
+            <Image source={img3} style={{width:'100%', height:'100%', resizeMode:'contain'}}/>
         </View>
 
 

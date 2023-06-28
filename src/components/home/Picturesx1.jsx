@@ -1,6 +1,8 @@
 import { View, Text, ScrollView, Image } from 'react-native'
 import React, { useState, useEffect } from 'react'
-import img from '../../../assets/Imgs-profile/img1.jpg'
+import img1 from '../../../assets/Imgs-profile/img1.png'
+import img2 from '../../../assets/Imgs-profile/img2.png'
+import img3 from '../../../assets/Imgs-profile/img3.png'
 
 const Picturesx1 = () => {
 
@@ -48,16 +50,13 @@ const Picturesx1 = () => {
         flexDirection: 'column'
       }}>
         <View style={{height: 450, marginTop:1}}>
-          <Image source={img} style={{ width: '100%', height: '100%', resizeMode: 'cover' }} />
+          <Image source={img1} style={{ width: '100%', height: '100%', resizeMode: 'cover' }} />
         </View>
         <View style={{height: 450 , marginTop:1}}>
-          <Image source={img} style={{ width: '100%', height: '100%', resizeMode: 'cover' }} />
+          <Image source={img2} style={{ width: '100%', height: '100%', resizeMode: 'cover' }} />
         </View>
         <View style={{height: 450, marginTop:1}}>
-          <Image source={img} style={{ width: '100%', height: '100%', resizeMode: 'cover' }} />
-        </View>
-        <View style={{height: 450 , marginTop:1}}>
-          <Image source={img} style={{ width: '100%', height: '100%', resizeMode: 'cover' }} />
+          <Image source={img3} style={{ width: '100%', height: '100%', resizeMode: 'cover' }} />
         </View>
 
       </View>

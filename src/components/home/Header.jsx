@@ -29,7 +29,7 @@ const Header = () => {
                 <TouchableOpacity >
                     <Icon
                         name='bars'
-                        size={27}
+                        size={20}
                         color="grey"
                     />
                 </TouchableOpacity>
@@ -46,7 +46,7 @@ const styles = StyleSheet.create({
         justifyContent: 'space-between',
         flexDirection: 'row',
         alignItems: 'center',
-        marginHorizontal: 20
+        // marginHorizontal: 20
     },
 
     textLogo: {
