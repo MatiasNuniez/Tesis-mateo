@@ -42,8 +42,6 @@ const Picturesx1 = () => {
     >
 
       <View style={{
-        width: '100%',
-        height: 'auto',
         backgroundColor: 'white',
         flexWrap: 'wrap',
         flexDirection: 'column'
