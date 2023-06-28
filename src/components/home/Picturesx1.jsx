@@ -1,5 +1,5 @@
 import { View, Text, ScrollView, Image } from 'react-native'
-import React, {useState, useEffect} from 'react'
+import React, { useState, useEffect } from 'react'
 import img from '../../../assets/Imgs-profile/img1.jpg'
 
 const Picturesx1 = () => {
@@ -7,7 +7,7 @@ const Picturesx1 = () => {
   const [images, setImages] = useState([]);
 
 
-  const getSize = async() => {
+  const getSize = async () => {
 
     try {
 
@@ -29,30 +29,40 @@ const Picturesx1 = () => {
 
   useEffect(() => {
     getSize()
-  },[])
-  
+  }, [])
+
 
   return (
     <ScrollView
-    showsVerticalScrollIndicator={false}
-    style={{width:'100%',
-            height:'auto'}}
+      showsVerticalScrollIndicator={false}
+      style={{
+        width: '100%',
+        height: 'auto'
+      }}
     >
 
-    <View style={{width:'100%',
-                  height:'auto',
-                  backgroundColor:'white',
-                  flexWrap:'wrap',
-                  flexDirection:'column',
-                  paddingVertical:2,
-                  justifyContent:'space-between'}}>
-                    
-    <Image source = {img} style={{width:'100%', height:300, marginTop:2, resizeMode:'contain'}}/>
-    <Image source={img} style={{width:'100%', height:300, marginTop:2, resizeMode:'contain'}}/>
-    <Image source={img} style={{width:'100%', height:300 , marginTop:2, resizeMode:'contain'}}/>
-    <Image source={img} style={{width:'100%', height:300, marginTop:2, resizeMode:'contain'}}/>
+      <View style={{
+        width: '100%',
+        height: 'auto',
+        backgroundColor: 'white',
+        flexWrap: 'wrap',
+        flexDirection: 'column',
+        justifyContent: 'space-between'
+      }}>
+        <View style={{ width: '100%', height: 320, marginTop:2}}>
+          <Image source={img} style={{ width: '100%', height: '100%', resizeMode: 'contain' }} />
+        </View>
+        <View style={{ width: '100%', height: 320 , marginTop:2}}>
+          <Image source={img} style={{ width: '100%', height: '100%', resizeMode: 'contain' }} />
+        </View>
+        <View style={{ width: '100%', height: 320, marginTop:2}}>
+          <Image source={img} style={{ width: '100%', height: '100%', resizeMode: 'contain' }} />
+        </View>
+        <View style={{ width: '100%', height: 320 , marginTop:2}}>
+          <Image source={img} style={{ width: '100%', height: '100%', resizeMode: 'contain' }} />
+        </View>
 
-    </View>
+      </View>
 
     </ScrollView>
   )
