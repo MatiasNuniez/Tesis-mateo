@@ -29,7 +29,7 @@ const Header = () => {
                 <TouchableOpacity >
                     <Icon
                         name='bars'
-                        size={20}
+                        size={30}
                         color="grey"
                     />
                 </TouchableOpacity>

@@ -43,7 +43,7 @@ const Picturesx3 = () => {
                       flexWrap:'wrap',
                       flexDirection:'row',
                       justifyContent:'space-between'}}>
-        <View style={{width:'32%', height:100, marginTop:0}}>
+        <View style={{width:'32%', height:200, marginTop:0}}>
             <Image source={img1} style={{width:'100%', height:'100%', resizeMode:'stretch'}}/>
         </View>
         <View style={{width:'32%', height:200, marginTop:0}}>
