@@ -42,20 +42,21 @@ const Picturesx1 = () => {
     >
 
       <View style={{
+        flex:1,
         backgroundColor: 'white',
         flexWrap: 'wrap',
         flexDirection: 'column'
       }}>
-        <View style={{height: 320, marginTop:1}}>
+        <View style={{height: 250, marginTop:1}}>
           <Image source={img} style={{ width: '100%', height: '100%', resizeMode: 'contain' }} />
         </View>
-        <View style={{height: 320 , marginTop:1}}>
+        <View style={{height: 250 , marginTop:1}}>
           <Image source={img} style={{ width: '100%', height: '100%', resizeMode: 'contain' }} />
         </View>
-        <View style={{height: 320, marginTop:1}}>
+        <View style={{height: 250, marginTop:1}}>
           <Image source={img} style={{ width: '100%', height: '100%', resizeMode: 'contain' }} />
         </View>
-        <View style={{height: 320 , marginTop:1}}>
+        <View style={{height: 250 , marginTop:1}}>
           <Image source={img} style={{ width: '100%', height: '100%', resizeMode: 'contain' }} />
         </View>
 
