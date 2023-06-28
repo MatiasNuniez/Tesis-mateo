@@ -11,7 +11,8 @@ function Pictures() {
 
   return (
 
-    <Tab.Navigator style={{marginTop:0}}  screenOptions={({route})=>({
+    <View style={{marginTop:'0px'}}>
+    <Tab.Navigator screenOptions={({route})=>({
       tabBarShowLabel:false,
     })}>
 
@@ -32,7 +33,7 @@ function Pictures() {
         }}/>
 
     </Tab.Navigator>
-
+    </View>
   )
 }
 
