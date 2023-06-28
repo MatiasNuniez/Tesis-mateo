@@ -32,7 +32,8 @@ const styles = StyleSheet.create({
     flex:1,
     flexDirection:'column',
     width:'100%',
-    marginBottom:0
+    marginBottom:0,
+    height:'50vh'
   },
 
   touchContainer:{
