@@ -31,7 +31,8 @@ const styles = StyleSheet.create({
   containerText:{
     flex:1,
     flexDirection:'column',
-    textAlign:'center',
+    width:'40%',
+    marginBottom:0
   },
 
   touchContainer:{
