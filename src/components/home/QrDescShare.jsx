@@ -57,7 +57,8 @@ const styles = StyleSheet.create({
   image:{
     resizeMode:'cover',
     width:80,
-    height:80
+    height:80,
+    marginLeft:2
     
   },
   bold:{
