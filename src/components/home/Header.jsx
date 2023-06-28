@@ -54,7 +54,8 @@ const styles = StyleSheet.create({
     },
 
     touch: {
-        width: '50%'
+        width: '50%',
+        justifyContent:'flex-end'
     },
 
     textcon:{
@@ -63,7 +64,7 @@ const styles = StyleSheet.create({
 
     textLogo: {
 
-        fontFamily: 'Billabong', fontSize: 40, height: 100, width: '50%'
+        fontFamily: 'Billabong', fontSize: 40, height: 100
 
     }
 })
