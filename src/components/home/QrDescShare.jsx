@@ -58,7 +58,7 @@ const styles = StyleSheet.create({
     resizeMode:'cover',
     width:80,
     height:80,
-    paddingStart:3
+    paddingLeft:15
     
   },
   bold:{
