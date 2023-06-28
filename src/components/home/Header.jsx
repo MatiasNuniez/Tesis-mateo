@@ -19,21 +19,18 @@ const Header = () => {
     return (
 
         <View style={styles.container}>
-            <View>
                 <Text style={styles.textLogo} >
                     Enfogram
                 </Text>
-            </View>
 
-            <View>
-                <TouchableOpacity style={styles.touch}>
+                <TouchableOpacity>
                     <Icon
                         name='bars'
-                        size={30}
+                        size={25}
                         color="grey"
                     />
                 </TouchableOpacity>
-            </View>
+                
         </View>
 
     )
@@ -46,11 +43,6 @@ const styles = StyleSheet.create({
         justifyContent: 'space-between',
         flexDirection: 'row',
         alignItems: 'center',
-    },
-
-    touch:{
-        width:'32px',
-        marginTop:0
     },
 
     textLogo: {
