@@ -60,10 +60,12 @@ const styles = StyleSheet.create({
   },
   bold:{
     fontWeight:'bold',
-    fontSize:15
+    fontSize:15,
+    justifyContent:'flex-start'
   },
   nobold:{
-    fontSize:13
+    fontSize:13,
+    justifyContent:'flex-start'
   },
   touchbold:{
     fontWeight:'bold'

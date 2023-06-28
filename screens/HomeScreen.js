@@ -6,7 +6,7 @@ import Pictures from '../src/components/home/Pictures'
 import { NavigationContainer } from '@react-navigation/native';
 
 
-const  HomeScreen = () => {
+const HomeScreen = () => {
   return (
 
     <SafeAreaView style={styles.container}>
@@ -15,9 +15,9 @@ const  HomeScreen = () => {
 
       <QrDescShare />
 
-    <NavigationContainer>
+      <NavigationContainer>
         <Pictures />
-    </NavigationContainer>
+      </NavigationContainer>
 
 
     </SafeAreaView>
@@ -26,11 +26,11 @@ const  HomeScreen = () => {
 }
 
 const styles = StyleSheet.create({
-    container:{
-        flex:1,
-        backgroundColor:'white',
-        marginTop:15,
-    }
+  container: {
+    flex: 1,
+    backgroundColor: 'white',
+    marginTop: 15,
+  }
 })
 
 
