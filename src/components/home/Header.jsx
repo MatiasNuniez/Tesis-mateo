@@ -28,7 +28,7 @@ const Header = () => {
             </View>
 
             <View style={styles.touch}>
-                <Image source={img2} style={styles.touch} />
+                <Image source={img2} />
             </View>
 
         </View>
