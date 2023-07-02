@@ -1,4 +1,4 @@
-import { View, Text, TouchableOpacity, StyleSheet, SafeAreaView, Image } from 'react-native'
+import { View, Text, TouchableOpacity, StyleSheet } from 'react-native'
 import Icon from 'react-native-vector-icons/FontAwesome5';
 import { useFonts } from 'expo-font';
 import { useEffect } from 'react';
@@ -21,15 +21,20 @@ const Header = () => {
 
         <View style={styles.container}>
 
-            <View style={styles.textcon}>
-                <Text style={styles.textLogo} >
+            <View>
+                <Text style={{fontFamily:'Billabong', fontSize:40}} >
                     Enfogram
                 </Text>
             </View>
 
-            <View style={styles.touch}>
-                <Image source={img2} />
-            </View>
+            <TouchableOpacity style={styles.touch}>
+
+                <Icon
+                name='bars'
+                size={24}
+                />
+
+            </TouchableOpacity>
 
         </View>
 
@@ -43,16 +48,8 @@ const styles = StyleSheet.create({
         justifyContent: 'space-between',
         flexDirection: 'row',
         alignItems: 'center',
-        width: '100%'
-    },
-    touch: {
-        justifyContent: 'flex-end'
-    },
-
-    textLogo: {
-
-        fontFamily: 'Billabong', fontSize: 40, height: 100, justifyContent: 'flex-start'
-
+        marginHorizontal:20,
+        marginBottom:40
     }
 })
 
