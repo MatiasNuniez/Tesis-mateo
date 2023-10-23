@@ -11,7 +11,7 @@ function Pictures() {
 
   return (
 
-    <View style={{marginTop:'10px'}}>
+    <View style={styles.img}>
     <Tab.Navigator screenOptions={({route})=>({
       tabBarShowLabel:false,
     })}>
@@ -36,5 +36,11 @@ function Pictures() {
     </View>
   )
 }
+
+const styles = StyleSheet.create({
+  img:{
+    marginTop:10
+  }
+})
 
 export default Pictures;

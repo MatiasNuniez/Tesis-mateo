@@ -21,20 +21,22 @@ const Header = () => {
 
         <View style={styles.container}>
 
-            <View>
+            <View style={styles.leftContainer}>
                 <Text style={{fontFamily:'Billabong', fontSize:40}} >
                     Enfogram
                 </Text>
             </View>
 
-            <TouchableOpacity style={styles.touch}>
+        <View style={styles.rightContainer}>
+            <TouchableOpacity>
 
                 <Icon
                 name='bars'
-                size={24}
+                size={28}
                 />
 
             </TouchableOpacity>
+        </View>
 
         </View>
 
@@ -50,7 +52,15 @@ const styles = StyleSheet.create({
         alignItems: 'center',
         marginHorizontal:20,
         marginBottom:40
-    }
+    },
+    leftContainer:{
+        flex:1,
+        alignItems:'flex-start'
+      },
+      rightContainer:{
+        flex:1,
+        alignItems:'flex-end'
+      },
 })
 
 
