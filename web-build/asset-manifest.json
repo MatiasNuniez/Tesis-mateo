@@ -1,10 +1,7 @@
 {
   "files": {
-    "main.js": "/static/js/main.2bc5294b.js",
-    "static/js/27.18729dc2.js": "/static/js/27.18729dc2.js",
-    "static/media/img1.png": "/static/media/img1.197019b5248c21bb55b8.png",
-    "static/media/img3.png": "/static/media/img3.0f0de776215d3bdb330c.png",
-    "static/media/img2.png": "/static/media/img2.1e7bca3b21524a757ef8.png",
+    "main.js": "/static/js/main.ec7b9279.js",
+    "static/js/545.00562f3c.js": "/static/js/545.00562f3c.js",
     "static/media/FontAwesome5_Solid.ttf": "/static/media/FontAwesome5_Solid.07c3313b24f7b1ca85ee.ttf",
     "static/media/FontAwesome5_Brands.ttf": "/static/media/FontAwesome5_Brands.9e138496e8f1719c6ebf.ttf",
     "static/media/Billabong.ttf": "/static/media/Billabong.0e94b13a1cfb505ff271.ttf",
@@ -16,11 +13,11 @@
     "favicon-16.png": "/favicon-16.png",
     "manifest.json": "/manifest.json",
     "serve.json": "/serve.json",
-    "main.2bc5294b.js.map": "/static/js/main.2bc5294b.js.map",
-    "27.18729dc2.js.map": "/static/js/27.18729dc2.js.map"
+    "main.ec7b9279.js.map": "/static/js/main.ec7b9279.js.map",
+    "545.00562f3c.js.map": "/static/js/545.00562f3c.js.map"
   },
   "entrypoints": [
-    "static/js/27.18729dc2.js",
-    "static/js/main.2bc5294b.js"
+    "static/js/545.00562f3c.js",
+    "static/js/main.ec7b9279.js"
   ]
 }

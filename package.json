@@ -1,5 +1,5 @@
 {
-  "name": "mateo-tesis",
+  "name": "enfogram",
   "version": "1.0.0",
   "main": "node_modules/expo/AppEntry.js",
   "scripts": {
@@ -17,7 +17,8 @@
     "expo-file-system": "~15.2.2",
     "expo-font": "~11.1.1",
     "expo-status-bar": "~1.4.4",
-    "firebase":"^10.5.2",
+    "expo-updates": "~0.16.4",
+    "firebase": "^10.5.2",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "react-native": "0.71.8",
