@@ -96,25 +96,6 @@ const Picturesx3 = () => {
                 }
 
 
-
-                {/* <View style={{ width: '32%', height: 200, marginTop: 0 }}>
-                    <Image source={{
-                        uri: images[0]
-                    }} style={{ width: '100%', height: '100%', resizeMode: 'stretch' }} />
-                </View>
-                <View style={{ width: '32%', height: 200, marginTop: 0 }}>
-                    <Image source={{
-                        uri: images[1]
-                    }} style={{ width: '100%', height: '100%', resizeMode: 'stretch' }} />
-                </View>
-
-                <View style={{ width: '32%', height: 200, marginTop: 0 }}>
-                    <Image source={{
-                        uri: "https://firebasestorage.googleapis.com/v0/b/enfogramtaller5.appspot.com/o/images%2F1-undefined.png?alt=media&token=ca3e2231-54a4-46c3-a62b-c70ab21e51ba"
-                    }} style={{ width: '100%', height: '100%', resizeMode: 'stretch' }} />
-                </View> */}
-
-
             </View >
 
         </ScrollView >
