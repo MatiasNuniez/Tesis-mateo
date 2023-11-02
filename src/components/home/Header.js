@@ -16,7 +16,6 @@ const Header = () => {
         fontsLeaded
     }, [])
 
-
     return (
 
         <View style={styles.container}>
@@ -26,17 +25,6 @@ const Header = () => {
                     Enfogram
                 </Text>
             </View>
-
-        <View style={styles.rightContainer}>
-            <TouchableOpacity>
-
-                <Icon
-                name='bars'
-                size={28}
-                />
-
-            </TouchableOpacity>
-        </View>
 
         </View>
 
@@ -56,11 +44,7 @@ const styles = StyleSheet.create({
     leftContainer:{
         flex:1,
         alignItems:'flex-start'
-      },
-      rightContainer:{
-        flex:1,
-        alignItems:'flex-end'
-      },
+      }
 })
 
 

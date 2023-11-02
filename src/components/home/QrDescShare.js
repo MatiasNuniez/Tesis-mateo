@@ -9,15 +9,26 @@ function QrDescShare() {
     Clipboard.setString('https://enfogram.vercel.app/');
   };
 
+  const goToCatedra = () => {
+    window.location.replace('https://taller5.ludic.cc/')
+}
+
   return (
 
     <View style={styles.containerText}>
       <View style={styles.imageContainer}>
       <Image source = {ProfilePicture}  style = {styles.image} />
       </View>
-      <Text style={styles.bold}>Enfoque + Telegrama</Text>
+      <Text style={styles.bold}>Enfoque + Telegrama
+      </Text>
+      <TouchableOpacity onPress={() => goToCatedra()} style={styles.taller}>
+          <Text style={styles.textTaller}>
+            Taller de diseño multimedial V
+          </Text>
+        </TouchableOpacity>
       <Text style={styles.nobold}>Transforma tus perspectiva en imágenes cautivadoras,
-        reflejando tus metas y mostrando tu visión única del mundo</Text>
+        reflejando tus metas y mostrando tu visión única del mundo
+      </Text>
         <View style={styles.touchContainer}>
         <View style={styles.touchStyle}>
           <TouchableOpacity onPress={() => copyToClipboard()} style={{marginTop:0}}>
@@ -78,10 +89,15 @@ const styles = StyleSheet.create({
   },
   touchbold:{
     fontWeight:'bold'
+  },
+  taller:{
+    justifyContent:'flex-start',
+    marginLeft:10
+  },
+  textTaller:{
+    fontWeight:'bold',
+    fontSize:12.5,
   }
 })
-
-
-
 
 export default QrDescShare;
