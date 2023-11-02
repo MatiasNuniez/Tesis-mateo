@@ -21,14 +21,14 @@ function QrDescShare() {
       </View>
       <Text style={styles.bold}>Enfoque + Telegrama
       </Text>
+      <Text style={styles.nobold}>Transforma tus perspectiva en imágenes cautivadoras,
+        reflejando tus metas y mostrando tu visión única del mundo
+      </Text>
       <TouchableOpacity onPress={() => goToCatedra()} style={styles.taller}>
           <Text style={styles.textTaller}>
             Taller de diseño multimedial V
           </Text>
         </TouchableOpacity>
-      <Text style={styles.nobold}>Transforma tus perspectiva en imágenes cautivadoras,
-        reflejando tus metas y mostrando tu visión única del mundo
-      </Text>
         <View style={styles.touchContainer}>
         <View style={styles.touchStyle}>
           <TouchableOpacity onPress={() => copyToClipboard()} style={{marginTop:0}}>
@@ -36,7 +36,6 @@ function QrDescShare() {
           </TouchableOpacity>
         </View>
         </View>
-
     </View>
 
   )
@@ -91,7 +90,9 @@ const styles = StyleSheet.create({
   },
   textTaller:{
     fontWeight:'bold',
-    fontSize:12.5,
+    color:'blue',
+    textDecorationLine:'underline',
+    fontSize:12,
   }
 })
 

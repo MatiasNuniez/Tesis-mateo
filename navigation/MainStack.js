@@ -15,7 +15,7 @@ const MainStackNavigation = () => {
 
             <Stack.Navigator>
 
-                <Stack.Screen name='home' component={HomeScreen}/>
+                <Stack.Screen name='home' component={HomeScreen} options={{headerShown:false}}/>
                 <Stack.Screen name='Image' component={OnlyImageScreen} />
 
             </Stack.Navigator>
