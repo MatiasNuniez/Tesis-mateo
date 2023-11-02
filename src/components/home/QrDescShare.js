@@ -6,18 +6,7 @@ function QrDescShare() {
 
 
   const copyToClipboard = () => {
-    Alert.alert('Alert Title', 'My Alert Msg', [
-      {
-        text: 'Ask me later',
-        onPress: () => console.log('Ask me later pressed'),
-      },
-      {
-        text: 'Cancel',
-        onPress: () => console.log('Cancel Pressed'),
-        style: 'cancel',
-      },
-      {text: 'OK', onPress: () => console.log('OK Pressed')},
-    ]);
+    Alert.alert('Alert Title', 'Link copiado exitosamente')
     Clipboard.setString('https://enfogram.vercel.app/');
   };
 
