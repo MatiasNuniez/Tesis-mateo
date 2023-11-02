@@ -7,6 +7,7 @@ import { NavigationContainer } from '@react-navigation/native';
 
 
 const HomeScreen = () => {
+
   return (
 
     <SafeAreaView style={styles.container}>
@@ -15,9 +16,7 @@ const HomeScreen = () => {
 
       <QrDescShare />
 
-      <NavigationContainer>
         <Pictures />
-      </NavigationContainer>
 
 
     </SafeAreaView>

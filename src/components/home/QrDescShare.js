@@ -1,8 +1,25 @@
-import { View, Text, TouchableOpacity, StyleSheet, Image } from 'react-native'
+import { View, Text, TouchableOpacity, StyleSheet, Image,   Clipboard, Alert} from 'react-native'
 import React from 'react'
 import ProfilePicture from '../../../assets/ProfilePicture.png'
 
 function QrDescShare() {
+
+
+  const copyToClipboard = () => {
+    Alert.alert('Alert Title', 'My Alert Msg', [
+      {
+        text: 'Ask me later',
+        onPress: () => console.log('Ask me later pressed'),
+      },
+      {
+        text: 'Cancel',
+        onPress: () => console.log('Cancel Pressed'),
+        style: 'cancel',
+      },
+      {text: 'OK', onPress: () => console.log('OK Pressed')},
+    ]);
+    Clipboard.setString('https://enfogram.vercel.app/');
+  };
 
   return (
 
@@ -15,7 +32,7 @@ function QrDescShare() {
         reflejando tus metas y mostrando tu visión única del mundo</Text>
         <View style={styles.touchContainer}>
         <View style={styles.touchStyle}>
-          <TouchableOpacity style={{marginTop:0}}>
+          <TouchableOpacity onPress={() => copyToClipboard()} style={{marginTop:0}}>
           <Text style={styles.touchbold}>Compartir Perfil</Text>
           </TouchableOpacity>
         </View>

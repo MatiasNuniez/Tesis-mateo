@@ -82,7 +82,7 @@ const Picturesx1 = () => {
 {
                     images?.map(itemImage => {
                         return (
-                          <View key={itemImage}style={{height: 650, marginTop:10}}>
+                        <View key={itemImage}style={{height: 650, marginTop:10}}>
                           <Image source={{uri:itemImage}} style={{ width: '100%', height: '100%', resizeMode: 'stretch', marginLeft:-1}} />
                         </View>
                         )

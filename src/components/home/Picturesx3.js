@@ -1,9 +1,11 @@
-import { View, Image, ScrollView } from 'react-native'
+import { View, Image, ScrollView, TouchableNativeFeedback } from 'react-native'
 import React, { useEffect, useState } from 'react'
 import { initializeApp } from 'firebase/app';
 import { getDownloadURL, getStorage, ref as storegeRef } from "firebase/storage";
 import { getAnalytics } from "firebase/analytics";
 import { getFirestore, collection, getDocs} from 'firebase/firestore'
+import { TouchableOpacity } from 'react-native-web';
+import { useNavigation } from '@react-navigation/native';
 
 //FIREBASE
 const firebaseConfig = {
@@ -25,7 +27,8 @@ console.log(app)
 const Picturesx3 = () => {
 
     const [images, setImages] = useState([]);
-    const [cont, setCont] = useState()
+    const [cont, setCont] = useState();
+    const navigation = useNavigation();
 
     const getCont = () => {
 
@@ -37,6 +40,7 @@ const Picturesx3 = () => {
                 contIn.push({...doc.data()})
             })
             setCont(contIn[0].num);
+            return getDoc
         })
         .catch(err => {
             console.log(err.message);
@@ -44,18 +48,28 @@ const Picturesx3 = () => {
     }
 
     const fetchImages = async () => {
-
-        getCont();
-
         const storage = getStorage(app);
-        for (let index = 1; index < cont + 1; index++) {
-            const imagesRef = storegeRef(storage, `images/${index}-undefined`);
-            console.log(imagesRef);
-            console.log(getDownloadURL(imagesRef));
-            await getDownloadURL(imagesRef).then((item) => {
-                    setImages(current => [item, ...current]);
-            })
+        getCont();
+        try {
+
+            for (let index = 1; index < cont + 1; index++) {
+                const imagesRef = storegeRef(storage, `images/${index}-undefined`);
+                console.log(imagesRef);
+                console.log(getDownloadURL(imagesRef));
+                await getDownloadURL(imagesRef).then((item) => {
+                        setImages(current => [item, ...current]);
+                })
+            }
+            return images
+            
+        } catch (error) {
+            console.log(error);
         }
+
+    }
+
+    const goToImage = (itemImage) => {
+        navigation.navigate('onlyimage', {image:itemImage})
     }
 
     useEffect(() => {
@@ -86,11 +100,11 @@ const Picturesx3 = () => {
                 {
                     images?.map(itemImage => {
                         return (
-                            <View key = {itemImage} style={{ width: '32%', height: 200, marginTop: 0 }}>
+                                <TouchableOpacity onPress={() => goToImage(itemImage)} key = {itemImage} style={{width: '32%', height: 200, marginTop: 1, border:'none'}}>
                                 <Image source={{
                                     uri: itemImage
                                 }} style={{ width: '100%', height: '100%', resizeMode:'stretch', marginLeft:-0.4}} />
-                            </View>
+                                </TouchableOpacity>
                         )
                     })
                 }

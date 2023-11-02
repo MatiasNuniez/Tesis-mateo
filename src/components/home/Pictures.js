@@ -14,7 +14,7 @@ function Pictures() {
     <View style={styles.img}>
     <Tab.Navigator screenOptions={({route})=>({
       tabBarShowLabel:false,
-    })}>
+    })} >
 
       <Tab.Screen name='POSTX3' component={Picturesx3} options={{
             tabBarIcon : ({}) => (
@@ -39,7 +39,7 @@ function Pictures() {
 
 const styles = StyleSheet.create({
   img:{
-    marginTop:10
+    marginTop:"60%"
   }
 })
 
