@@ -1,9 +1,10 @@
-import { View, ScrollView, Image } from 'react-native'
+import { View, ScrollView, Image, TouchableOpacity } from 'react-native'
 import React, { useEffect, useState } from 'react'
 import { initializeApp } from 'firebase/app';
 import { getDownloadURL, getStorage, ref as storegeRef } from "firebase/storage";
 import { getAnalytics } from "firebase/analytics";
 import { getFirestore, collection, getDocs} from 'firebase/firestore'
+import { useNavigation } from '@react-navigation/native';
 
 //FIREBASE
 const firebaseConfig = {
@@ -25,7 +26,8 @@ console.log(app)
 const Picturesx1 = () => {
 
     const [images, setImages] = useState([]);
-    const [cont, setCont] = useState()
+    const [cont, setCont] = useState();
+    const navigation = useNavigation();
 
     const getCont = () => {
 
@@ -58,6 +60,10 @@ const Picturesx1 = () => {
         }
     }
 
+    const goToImage = (itemImage) => {
+      navigation.navigate('Image', {image:itemImage})
+  }
+
     useEffect(() => {
         fetchImages();
     }, [cont])
@@ -82,9 +88,9 @@ const Picturesx1 = () => {
 {
                     images?.map(itemImage => {
                         return (
-                        <View key={itemImage}style={{height: 650, marginTop:10}}>
+                        <TouchableOpacity onPress={() => goToImage(itemImage)} key={itemImage}style={{height: 650, marginTop:10}}>
                           <Image source={{uri:itemImage}} style={{ width: '100%', height: '100%', resizeMode: 'stretch', marginLeft:-1}} />
-                        </View>
+                        </TouchableOpacity>
                         )
                     })
                 }

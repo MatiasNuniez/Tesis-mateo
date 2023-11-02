@@ -21,7 +21,7 @@ const Header = () => {
         <View style={styles.container}>
 
             <View style={styles.leftContainer}>
-                <Text style={{fontFamily:'Billabong', fontSize:40}} >
+                <Text style={{fontFamily:'Billabong', fontSize:40, textAlign:'center'}} >
                     Enfogram
                 </Text>
             </View>
@@ -42,8 +42,7 @@ const styles = StyleSheet.create({
         marginBottom:40
     },
     leftContainer:{
-        flex:1,
-        alignItems:'flex-start'
+        flex:1
       }
 })
 

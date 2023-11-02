@@ -85,6 +85,8 @@ const styles = StyleSheet.create({
     fontWeight:'bold'
   },
   taller:{
+    marginTop:5,
+    marginBottom:12,
     justifyContent:'flex-start',
     marginLeft:10
   },
