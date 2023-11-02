@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.js": "/static/js/main.ec7b9279.js",
-    "static/js/545.00562f3c.js": "/static/js/545.00562f3c.js",
+    "main.js": "/static/js/main.55fcb75c.js",
+    "static/js/875.cca79889.js": "/static/js/875.cca79889.js",
     "static/media/FontAwesome5_Solid.ttf": "/static/media/FontAwesome5_Solid.07c3313b24f7b1ca85ee.ttf",
     "static/media/FontAwesome5_Brands.ttf": "/static/media/FontAwesome5_Brands.9e138496e8f1719c6ebf.ttf",
     "static/media/Billabong.ttf": "/static/media/Billabong.0e94b13a1cfb505ff271.ttf",
@@ -13,11 +13,11 @@
     "favicon-16.png": "/favicon-16.png",
     "manifest.json": "/manifest.json",
     "serve.json": "/serve.json",
-    "main.ec7b9279.js.map": "/static/js/main.ec7b9279.js.map",
-    "545.00562f3c.js.map": "/static/js/545.00562f3c.js.map"
+    "main.55fcb75c.js.map": "/static/js/main.55fcb75c.js.map",
+    "875.cca79889.js.map": "/static/js/875.cca79889.js.map"
   },
   "entrypoints": [
-    "static/js/545.00562f3c.js",
-    "static/js/main.ec7b9279.js"
+    "static/js/875.cca79889.js",
+    "static/js/main.55fcb75c.js"
   ]
 }
