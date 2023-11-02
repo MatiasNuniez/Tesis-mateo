@@ -69,7 +69,7 @@ const Picturesx3 = () => {
     }
 
     const goToImage = (itemImage) => {
-        navigation.navigate('onlyimage', {image:itemImage})
+        navigation.navigate('Image', {image:itemImage})
     }
 
     useEffect(() => {
