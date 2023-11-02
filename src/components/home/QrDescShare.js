@@ -50,13 +50,9 @@ const styles = StyleSheet.create({
     width:'100%',
     marginBottom:8,
   },
-
   touchContainer:{
-
     alignItems:'center'
-    
   },
-
   touchStyle:{
     backgroundColor:'#efefef',
     marginTop:10,
@@ -67,14 +63,13 @@ const styles = StyleSheet.create({
   },
   imageContainer:{
     justifyContent:'flex-start',
-    marginBottom:50
+    marginBottom:20
   },
   image:{
     resizeMode:'cover',
     width:80,
     height:80,
     marginLeft:10
-    
   },
   bold:{
     fontWeight:'bold',
